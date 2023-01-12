@@ -1,0 +1,35 @@
+.idea
+Cargo.lock
+
+#object file
+*.o
+
+#library
+*.a
+
+#share object
+*.so
+*.so.*
+
+#generated proxy
+mpc_hd_gg18/*/*_u.c
+mpc_hd_gg18/*/*_u.h
+mpc_hd_gg18/*/*_t.c
+mpc_hd_gg18/*/*_t.h
+mpc_hd_gg18/**/bin/app
+
+**/target
+
+#generated assembly
+third_party/ring/pregenerated
+
+#libunwind
+sgx_unwind/libunwind/INSTALL
+sgx_unwind/libunwind/m4/*
+sgx_unwind/libunwind/config/*
+sgx_unwind/libunwind/include/config.h.*
+sgx_unwind/libunwind/Makefile.in
+sgx_unwind/libunwind/aclocal.m4
+sgx_unwind/libunwind/autom4te.cache/*
+sgx_unwind/libunwind/configure
+sgx_unwind/libunwind/src/Makefile.in
